@@ -1,0 +1,127 @@
+{
+	"guns": {
+		"fishgun": {
+			"damage": 23,
+			"speed": -7,
+			"image": "spr_gun1"
+		},
+		"doggun": {
+			"damage": 3,
+			"speed": 40,
+			"image": "spr_gun2"
+		},
+	},
+	"recipes": [
+		{
+			"name": "iron_ore",
+			"time": 2,
+			"output": {
+				"iron_ore": 1
+			},
+			"patch": "iron_ore"
+		},
+		{
+			"name": "copper_ore",
+			"time": 4,
+			"output": {
+				"copper_ore": 2
+			},
+			"patch": "copper_ore"
+		},
+		{
+			"name": "iron_ingot",
+			"time": 3,
+			"output": {
+				"iron_ingot": 3
+			},
+			"input": {
+				"iron_ore": 1
+			}
+		},
+		{
+			"name": "magnet",
+			"time": 2,
+			"output": {
+				"magnet": 1
+			},
+			"input": {
+				"iron_ore": 1
+			}
+		},
+		{
+			"name": "copper_ingot",
+			"time": 2,
+			"output": {
+				"copper_ingot": 1
+			},
+			"input": {
+				"copper_ore": 1
+			}
+		},
+		{
+			"name": "circuit",
+			"time": 1,
+			"output": {
+				"circuit": 1
+			},
+			"input": {
+				"iron_ingot": 1,
+				"copper_ingot": 1
+			}
+		},
+		{
+			"name": "magnetic_coil",
+			"time": 2,
+			"output": {
+				"magnetic_coil": 1
+			},
+			"input": {
+				"magnet": 1,
+				"copper_ingot": 2
+			}
+		},
+		{
+			"name": "iron_gear",
+			"time": 2,
+			"output": {
+				"iron_gear": 4
+			},
+			"input": {
+				"iron_ingot": 1
+			}
+		},
+		{
+			"name": "building_point",
+			"time": 2,
+			"output": {
+				"building_point": 2
+			},
+			"input": {
+				"iron_gear": 1,
+				"circuit": 1
+			}
+		},
+		{
+			"name": "building_point_simple",
+			"time": 5,
+			"output": {
+				"building_point": 2
+			},
+			"input": {
+				"iron_ingot": 1
+			}
+		},
+		{
+			"name": "science_cube",
+			"time": 2,
+			"output": {
+				"science_cube": 1
+			},
+			"input": {
+				"circuit": 1,
+				"magnetic_coil": 1
+			}
+		}
+	],
+
+}

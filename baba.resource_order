@@ -1,0 +1,14 @@
+{
+  "FolderOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"spr_balloon","order":1,"path":"sprites/spr_balloon/spr_balloon.yy",},
+    {"name":"spr_gun1","order":4,"path":"sprites/spr_gun1/spr_gun1.yy",},
+    {"name":"oBalloon","order":2,"path":"objects/oBalloon/oBalloon.yy",},
+    {"name":"gun_manager","order":4,"path":"objects/gun_manager/gun_manager.yy",},
+    {"name":"spr_wall","order":2,"path":"sprites/spr_wall/spr_wall.yy",},
+    {"name":"gun","order":3,"path":"objects/gun/gun.yy",},
+    {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
+    {"name":"Sprite3","order":3,"path":"sprites/Sprite3/Sprite3.yy",},
+    {"name":"spr_gun2","order":5,"path":"sprites/spr_gun2/spr_gun2.yy",},
+  ],
+}
